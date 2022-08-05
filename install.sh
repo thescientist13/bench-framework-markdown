@@ -19,6 +19,12 @@ rm -rf node_modules && rm -rf package-lock.json
 npm cache clean --force # For benchmarking cold npm install
 time npm install
 
+echo "[bench] Install greenwood"
+cd ../greenwood
+rm -rf node_modules && rm -rf package-lock.json
+npm cache clean --force # For benchmarking cold npm install
+time npm install
+
 echo "[bench] Install next"
 cd ../../nextjs/my-app
 rm -rf node_modules && rm -rf package-lock.json

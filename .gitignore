@@ -29,6 +29,10 @@ remix-file-routing/my-remix-app/posts/*.md
 astro-with-mdx/my-astro-site/dist
 astro-with-mdx/my-astro-site/src/pages/posts/*.md
 
+greenwood/public
+greenwood/.greenwood
+greenwood/src/pages/posts/*.md
+
 # Prereleases
 bench-eleventy-v2.sh
 eleventy-v2/
